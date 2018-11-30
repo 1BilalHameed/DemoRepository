@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE7D207"
+    tools:context=".LoginPage">
+
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:layout_gravity="center_horizontal"
+       android:src="@drawable/icon1"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="SMART COFFEE"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FF403204"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_weight="1"
+           android:src="@drawable/ic_supervisor_account_black_24dp"
+           android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="UserName"
+            android:inputType="text"
+            android:layout_weight="2"
+            android:layout_marginTop="20sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_https_black_24dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Password"
+            android:id="@+id/text1"
+            android:inputType="numberPassword"
+            android:layout_weight="2"
+            android:layout_marginTop="20sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="LoginNow"
+        android:id="@+id/btn1"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFCFCBBF"
+        android:background="#FF403204"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
